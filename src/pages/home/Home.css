@@ -1,13 +1,8 @@
-.titulo{
-    color: blue;
-    text-align: center;
+.bg-home{
+    width: 100vw;
+    min-height: calc(100vh - 180px - 48px);
 }
 
-.img{
-    width: 500px;
-    height: 500px;
-}
-
-.container{
-    text-align: center;
+h3{
+    color: darkblue;
 }
