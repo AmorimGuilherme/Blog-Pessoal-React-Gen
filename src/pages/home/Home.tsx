@@ -6,7 +6,7 @@ import './Home.css';
 function Home() {
     return (
         
-            <Grid container direction="row" className='bg-home' justifyContent="center" alignItems="center" style={{ backgroundColor: "#f5f5f5" }}>
+            <Grid container direction="row" className="bg-home" justifyContent="center" alignItems="center" style={{ backgroundColor: "#f5f5f5" }}>
                 <Grid alignItems="center" item xs={6}>
                     <Box paddingX={20} >
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" style={{fontWeight: "bold" }}>Seja bem vindo(a)!</Typography>
@@ -19,7 +19,7 @@ function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
-                    <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px" />
+                    <img src="src/assets/img/mamaco.png" className="img"/>
                 </Grid>
                 <Grid xs={12} style={{ backgroundColor: "black" }}>
                 </Grid>

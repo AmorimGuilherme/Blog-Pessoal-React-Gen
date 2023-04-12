@@ -1,8 +1,9 @@
 .bg-home{
     width: 100vw;
-    min-height: calc(100vh - 180px - 48px);
+    min-height: calc(100vh - 180px);
 }
 
-h3{
-    color: darkblue;
+img{
+    width: 25vw;
+    height: 50vh;
 }
