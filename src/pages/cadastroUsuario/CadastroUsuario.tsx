@@ -7,7 +7,7 @@ import {Box} from '@mui/material';
 import { Link } from 'react-router-dom';
 import './CadastroUsuario.css';
 
-function CadastroUsuario() {
+function CadastroUsuario() {    
 
     let navigate = useNavigate();
     const [confirmarSenha,setConfirmarSenha] = useState<String>("")
