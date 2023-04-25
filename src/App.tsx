@@ -17,10 +17,13 @@ import CadastroPostagem from './components/postagens/cadastroPostagem/CadastroPo
 import CadastroTema from './components/temas/cadastroTema/CadastroTema';
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
 import DeletarTema from './components/temas/deletarTema/DeletarTema';
+import { Provider } from 'react-redux';
+import store from './store/Store';
 
 
 function App() {
   return (
+    <Provider store={store}>
     <>
       <BrowserRouter>
         <Navbar />
@@ -48,6 +51,7 @@ function App() {
         <Footer />
       </BrowserRouter>
     </>
+    </Provider>
   );
 }
 
