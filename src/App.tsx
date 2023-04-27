@@ -5,6 +5,8 @@ import viteLogo from '/vite.svg'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 
+
+
 import Navbar from './components/statics/navbar/Navbar';
 import Footer from './components/statics/footer/Footer';
 import Home from './pages/home/Home';
@@ -20,10 +22,14 @@ import DeletarTema from './components/temas/deletarTema/DeletarTema';
 import { Provider } from 'react-redux';
 import store from './store/Store';
 
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
     <Provider store={store}>
+      <ToastContainer/>
     <>
       <BrowserRouter>
         <Navbar />
